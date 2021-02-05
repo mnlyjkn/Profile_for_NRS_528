@@ -1,7 +1,5 @@
 # Andrew Million
 
-
-
 ### *Education*
 * **University of Rhode Island**
   * Master of Oceanography - Data and Technology track
@@ -15,3 +13,6 @@
 - Camping
 - Hiking
 - Swimming
+
+I am from Pennsylvannia and am currently attending the University of Rhode Island for my master's degree. I am in my second year and am hoping to graduate at the end of this semester.  I am currently looking for a job while finishing my last semester.
+
