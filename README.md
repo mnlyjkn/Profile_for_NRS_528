@@ -1,6 +1,17 @@
 # Andrew Million
-###Education
-* University of Rhode Island
-  * Master of Oceanography
-  
-  Currently attending University of Rhode Island as a graduate student at the Graduate School of Oceanography. In the Master of Oceanography program with a focus in Data and Techology. Also taking the Graduate Certificate in GIS and Remote Sensing.
+
+
+
+### *Education*
+* **University of Rhode Island**
+  * Master of Oceanography - Data and Technology track
+  * Graduate Certificate in GIS and Remote Sensing
+* **East Stroudsburg University**
+  * Marine Science/Biology double major
+
+### *Hobbies*
+- Reading
+- Games
+- Camping
+- Hiking
+- Swimming
