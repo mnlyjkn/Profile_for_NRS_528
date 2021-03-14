@@ -9,3 +9,5 @@ for word in words:
     else:
         counts[word] = 1
 print(counts)
+
+# Excellent, well done

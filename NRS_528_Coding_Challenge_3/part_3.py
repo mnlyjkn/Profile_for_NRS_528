@@ -92,3 +92,5 @@ print(years_dictionary)
 print()
 print("The anomaly for each year is:\n")
 print(anomaly)
+
+#All looks great, well done.

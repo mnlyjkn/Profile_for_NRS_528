@@ -28,3 +28,6 @@ for letter in word:
     elif letter in "qz":
         points = points + letter_scores["qz"]
 print("Your word " + "'" + word + "'" + " scored " + str(points) + " points.")
+
+# Interesting way to do this, I have not seen this style before, you can shorten this considerably, but it works! And it
+# didn't fail when I chucked an int at it.

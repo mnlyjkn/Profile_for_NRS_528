@@ -10,3 +10,6 @@ print("The following are not in both lists:")
 list_c = list((set(list_a) - set(list_b)))
 list_c.extend(list(set(list_b) - set(list_a)))
 print(list_c)
+
+#Great, you can avodi calling the blank print with adding \n to one of the other print statemetns to force a line
+# to be written to the output. Also see comment on Problem 1, add in the full description for each task

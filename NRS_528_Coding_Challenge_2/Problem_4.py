@@ -6,3 +6,5 @@ print("Your age is " + str(age) + ".")
 retirement = 65
 n = 65 - int(age)
 print("You have " + str(n) + " years until retirement at the age of 65.")
+
+# Excellent, but fails to catch an erroneous character, i.e. adding in a letter.
