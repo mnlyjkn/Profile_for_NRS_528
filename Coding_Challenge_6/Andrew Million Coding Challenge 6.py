@@ -6,7 +6,7 @@ import os, arcpy
 from arcpy.sa import *
 
 print("Enter the workspace (up to the folder that contains the folders to be worked with):")  # where the workspace will be
-workspace = input()
+workspace = r"C:\Data\Students_2021\1_Data"
 # example :workspace = r"C:\Python\Coding_Challenge_6\Step_3_data_lfs"
 # the data will be in individual folders in folder Step_3_data_lfs
 
@@ -29,4 +29,4 @@ for month in listMonths:
     print()  # space between loop iteration print outs
 
     output_raster = (Raster(NIR) - Raster(Red)) / (Raster(NIR) + Raster(Red))  # equation to calculate the NDVI
-    output_raster.save(workspace + "\\" + str(month) + "\\" + str(month) + "_NDVI.tif")  # Saves the NDVI output
+    output_raster.save(workspace + "\\" + str(month) + "_NDVI.tif")  # Saves the NDVI output

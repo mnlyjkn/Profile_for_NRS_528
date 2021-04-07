@@ -1,8 +1,10 @@
 import arcpy
 
+## THIS SI THE POITN OF MY CODE
+
 # workspace
 print("Please enter the file path to be used as your workspace")
-file_path = input()    # requires user input to set the file path that will be used in the workspace
+file_path = "C:\Data\Students_2021\Million\Coding_Challenge_4"    # requires user input to set the file path that will be used in the workspace
 arcpy.env.workspace = file_path  # sets the workspace
 arcpy.env.scratchWorkspace = file_path  # sets the scratch workspace
 print("The workspace is now set to:")

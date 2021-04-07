@@ -4,8 +4,8 @@ import arcpy
 import csv
 import os
 arcpy.env.overwriteOutput = True
-print("Please enter your file path to set the work space environment\n")
-file_path = input()
+
+file_path = "C:\Data\Students_2021\Million\Coding_Challenge_5"
 arcpy.env.workspace = file_path
 arcpy.env.scratchWorkspace = file_path
 print("The workspace is now set to: " + "'" + file_path + "'")

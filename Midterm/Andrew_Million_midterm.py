@@ -9,7 +9,7 @@ import arcpy
 # environment
 arcpy.env.overwriteOutput = True
 print("Enter the workspace file path:")
-workspace = input()
+workspace = "C:\Data\Students_2021\Million\Midterm\data"
 arcpy.env.workspace = workspace
 print("The workspace has been set")
 
