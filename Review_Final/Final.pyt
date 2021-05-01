@@ -193,7 +193,7 @@ class Species_Heatmap(object):   #
                                     parameterType="Required",  # Required|Optional|Derived
                                     direction="Input",  # Input|Output
                                     )
-        # input_string.value = "Cepphus_grylle"  # This is a default value that can be over-ridden in the toolbox
+        input_string.value = "Cepphus_grylle"  # This is a default value that can be over-ridden in the toolbox
         params.append(input_string)  # This is parameters[2]
 
         output_file = arcpy.Parameter(name="output_file",
@@ -432,26 +432,12 @@ class Clip_and_Merge(object):
         return
 
 
-# arcpy.env.workspace = r"C:\Users\Million\Desktop\URI Classes\Spring 2021\NRS 528\PythonScriptsAndLectures\Projects\Final\Test"  # dont think i actually need this
-arcpy.env.overwriteOutput = True
-
-def main():
-    first_tool = Land_Cover_Class_Selection() # i.e. what you have called your tool class: class Clippy(object):
-    first_tool.execute(first_tool.getParameterInfo(), None)
-
-if __name__ == '__main__':
-    main()
-
-def main():
-    second_tool = Species_Heatmap()  # i.e. what you have called your tool class: class Clippy(object):
-    second_tool.execute(second_tool.getParameterInfo(), None)
-
-if __name__ == '__main__':
-    main()
-
-def main():
-    third_tool = Clip_and_Merge()  # i.e. what you have called your tool class: class Clippy(object):
-    third_tool.execute(third_tool.getParameterInfo(), None)
-
-if __name__ == '__main__':
-    main()
+# # arcpy.env.workspace = r"C:\Users\Million\Desktop\URI Classes\Spring 2021\NRS 528\PythonScriptsAndLectures\Projects\Final\Test"  # dont think i actually need this
+# arcpy.env.overwriteOutput = True
+# #
+# # def main():
+# #     first_tool = Species_Heatmap() # i.e. what you have called your tool class: class Clippy(object):
+# #     first_tool.execute(first_tool.getParameterInfo(), None)
+# #
+# # if __name__ == '__main__':
+# #     main()
