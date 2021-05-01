@@ -53,7 +53,7 @@ class Land_Cover_Class_Selection(object):
 
 
         input_land_class = arcpy.Parameter(name="input_land_class",
-                                      displayName="Input Land Class Shapefile (Ex: Land_Cover_2011_RI_State_Plane.shp)",
+                                      displayName="Input Land Class Shapefile (Ex: Land_Cover_2011_RI_State_Plane_reduced.shp)",
                                       datatype="DEShapefile",
                                       parameterType="Required",  # Required|Optional|Derived
                                       direction="Input",  # Input|Output
