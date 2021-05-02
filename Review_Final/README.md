@@ -9,4 +9,4 @@ These tools are part of an ArcPro Python Script Toolbox and has been coded for u
   - A tool for creating a heatmap of where a species was found from a CSV file.  Only works on CSV files with 1 species.
 
 - Clip and Merge
-  - A tool for creating a heatmap of where a species was found from a CSV file.  Only works on CSV files with 1 species.
+  - A tool for clipping target areas from a shapefile and then merging them into 1 shapefile.  Only merges 2 areas.
